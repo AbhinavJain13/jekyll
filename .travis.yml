@@ -5,12 +5,12 @@ language: ruby
 sudo: false
 
 rvm:
-  - &ruby1 2.5
-  - &ruby2 2.4
-  - &ruby3 2.3
-  - &ruby4 2.2
-  - &ruby5 2.1
-  - &jruby jruby-9.1.14.0
+  - &ruby1 2.5.0
+  - &ruby2 2.4.3
+  - &ruby3 2.3.6
+  - &ruby4 2.2.9
+  - &ruby5 2.1.10
+  - &jruby jruby-9.1.15.0
 
 matrix:
   include:
